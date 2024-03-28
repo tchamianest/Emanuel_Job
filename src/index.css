@@ -1,0 +1,309 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-image: url("./assets/backgound.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.Container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.copyright {
+  background-color: "#333";
+  color: "#fff";
+  text-align: "center";
+  padding: "20px";
+  position: "fixed";
+  bottom: "0";
+  width: "100%";
+}
+
+/* starting the footer */
+footer {
+  display: flex;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  justify-content: center;
+}
+.footer-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.copyrighttop,
+.copyright {
+  color: #4b93e7;
+  margin: 0;
+}
+.copyrighttop {
+  font-weight: 900;
+  text-decoration: underline;
+  color: #3073c0;
+}
+
+/* end of the footer */
+
+/* starting the form */
+.Container-one {
+  margin-top: 80px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  height: fit-content;
+  padding: 20px;
+  min-height: 450px;
+  border-radius: 2px;
+  background-color: #e6eef8;
+  box-shadow: -8px -8px 8px #f6f6f6, 8px 8px 8px #acacac;
+}
+
+.Logo-Image {
+  width: 100%;
+  padding-top: 30px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Logo-of-company {
+  width: 20%;
+}
+
+.image-field {
+  width: 70%;
+  display: flex;
+  background-color: transparent;
+  height: 80%;
+}
+
+.image-section {
+  width: 40%;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.image-section img {
+  width: 70%;
+  margin-right: 30px;
+}
+.divider {
+  height: 70%;
+  background-color: #d3e2f4;
+  width: 4px;
+  border-radius: 1px;
+  color: transparent;
+}
+.field-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.top-controller {
+  display: flex;
+  gap: 0px;
+  align-items: center;
+}
+.top-controller p {
+  margin-right: 10px;
+  margin-left: 10px;
+  position: relative;
+  color: #4b93e7;
+}
+
+.under_line {
+  height: 4px;
+  width: 30px;
+  margin: 0;
+  display: block;
+  background-color: #f7ac25;
+  position: absolute;
+  margin-top: 40px;
+  color: transparent;
+  margin-left: 9px;
+}
+.under_line_signup {
+  background-color: #f7ac25;
+  width: 50px;
+  height: 4px;
+  color: transparent;
+  position: absolute;
+  margin-top: 40px;
+  margin-left: 76px;
+}
+.simple-divider {
+  background-color: #d3e2f4;
+  width: 4px;
+  height: 30%;
+  color: transparent;
+}
+.desactive {
+  cursor: pointer;
+}
+.active {
+  font-weight: 900;
+  color: #4b93e7;
+  font-size: 23px;
+  transition: 0.2s;
+}
+
+/* Ending the form */
+/* ----------------------------------------------------------- */
+.input-container {
+  margin-top: 0px;
+  width: 100%;
+}
+.input-container .inputField {
+  width: 90%;
+  height: 30px;
+  margin: 10px;
+  padding-left: 10px;
+  background-color: transparent;
+  border-radius: 5px;
+  border-color: #4b93e7;
+  font-weight: 500;
+  font-size: small;
+}
+.input-container .inputField::placeholder {
+  color: #1d3f94;
+}
+.Google_login,
+.Login_button {
+  width: 95%;
+  height: 30px;
+  margin: 10px;
+  background-color: transparent;
+  border-radius: 5px;
+  font-weight: 500;
+  height: 40px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.radiobutton_section {
+  display: flex;
+  gap: 5px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.radiobutton {
+  color: #4b93e7;
+}
+.radio-label {
+  font-family: "Poppins", sans-serif;
+  color: #082777;
+  font-weight: 500;
+  font-size: 15px;
+  text-align: center;
+  align-items: center;
+}
+
+.radiobutton_section a {
+  font-family: "Poppins", sans-serif;
+  flex: 1;
+  align-items: end;
+  text-align: end;
+  padding-right: 10px;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 10px;
+}
+.Login_button {
+  background-color: #f7ac25;
+  border: none;
+  color: white;
+  margin-top: 30px;
+}
+.Login_button:hover {
+  background-color: #d19424;
+}
+.Google_login {
+  background-color: #4b93e7;
+  color: white;
+  border: none;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+.Google_login:hover {
+  background-color: rgb(55, 118, 189);
+}
+.Google_login img {
+  width: 17px;
+}
+
+/* devices under 1000 */
+@media screen and (max-width: 1000px) {
+  .Container-one {
+    width: 70%;
+  }
+}
+
+/* ipad  devices */
+@media screen and (max-width: 750px) {
+  .Container-one {
+    width: 80%;
+  }
+  .divider {
+    height: 90%;
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 690px) {
+  .image-section {
+    display: none;
+  }
+
+  .Logo-of-company {
+    width: 50%;
+  }
+  .top-controller {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .Google_login,
+  .Login_button {
+    font-size: 11px;
+    height: 30px;
+  }
+  .under_line {
+    margin-left: 0;
+    margin-right: 110px;
+  }
+  .under_line_signup {
+    margin-left: 40px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .link_forget {
+    font-size: 6px;
+  }
+  .radio-label {
+    font-size: 10px;
+  }
+  .copyright {
+    font-size: 10px;
+  }
+  .copyrighttop {
+    font-size: 10px;
+    margin: 0;
+  }
+}
